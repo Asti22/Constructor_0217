@@ -17,6 +17,7 @@ angka::angka (int i){   //constructor
     panjang = i;
     arr = new int[i];
     isiData();
+}
 angka::~angka()
 { //derrstructor
   cout <<endl;
@@ -38,4 +39,10 @@ void angka::isiData(){
     }
     cout <<endl;
 }
-}
+int main(){
+    angka belajarcpp(3); //constructor dipanggil
+    angka *ptrBelajarcpp = new angka(5); //constructor dipanggil
+    delete ptrBelajarcpp; //destructuor dipanggil
+
+    return 0;
+} //destructor dipanggil
