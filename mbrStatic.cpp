@@ -20,3 +20,8 @@ class mahasiswa {
 };
 
 int mahasiswa::nim =217;
+
+
+void mahasiswa::printAll(){
+    
+}
