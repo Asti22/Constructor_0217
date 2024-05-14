@@ -18,3 +18,5 @@ class mahasiswa {
        }
 
 };
+
+int mahasiswa::nim =217;
